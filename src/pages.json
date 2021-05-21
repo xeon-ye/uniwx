@@ -1,0 +1,250 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "赫德物流"
+            }
+        },
+        {
+            "path": "pages/tabbar-2/index",
+            "style": {
+                "navigationBarTitleText": "我的订单"
+            }
+        },
+        {
+            "path": "pages/tabbar-2/shipping",
+            "style": {
+                "navigationBarTitleText": "物流详情"
+            }
+        },
+        {
+            "path": "pages/tabbar-2/detail",
+            "style": {
+                "navigationBarTitleText": "订单详情"
+            }
+        },
+        {
+            "path": "pages/tabbar-3/index",
+            "style": {
+                "navigationBarTitleText": "去寄件"
+            }
+        },
+        {
+            "path": "pages/tabbar-4/index",
+            "style": {
+                "navigationBarTitleText": "福利中心"
+            }
+        },
+        {
+            "path": "pages/tabbar-4/webview",
+            "style": {
+                "navigationBarTitleText": "福利中心"
+            }
+        },
+        {
+            "path": "pages/tabbar-5/index",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": {
+                        "backgroundImage": "linear-gradient(to right, #ff9900, #ff7100)"
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/tabbar-5/info",
+            "style": {
+                "navigationBarTitleText": "个人资料"
+            }
+        },
+        {
+            "path": "pages/tabbar-5/warehouse",
+            "style": {
+                "navigationBarTitleText": "自寄到仓地址"
+            }
+        },
+        {
+            "path": "pages/tabbar-5/warehouse_detail",
+            "style": {
+                "navigationBarTitleText": "自寄到仓地址"
+            }
+        },
+        {
+            "path": "pages/tabbar-5/account",
+            "style": {
+                "navigationBarTitleText": "我的余额"
+            }
+        },
+        {
+            "path": "pages/tabbar-5/invest",
+            "style": {
+                "navigationBarTitleText": "账户充值"
+            }
+        },
+        {
+            "path": "pages/invite/index",
+            "style": {
+                "navigationBarTitleText": "我的推荐"
+            }
+        },
+        {
+            "path": "pages/invite/share",
+            "style": {
+                "navigationBarTitleText": "邀请下单"
+            }
+        },
+        {
+            "path": "pages/invite/address",
+            "style": {
+                "navigationBarTitleText": "邀请你填写地址"
+            }
+        },
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "赫德物流"
+            }
+        },
+        {
+            "path": "pages/login/email",
+            "style": {
+                "navigationBarTitleText": "赫德物流"
+            }
+        },
+        {
+            "path": "pages/coupon/index",
+            "style": {
+                "navigationBarTitleText": "赫德物流"
+            }
+        },
+        {
+            "path": "pages/feedback/index",
+            "style": {
+                "navigationBarTitleText": "意见反馈"
+            }
+        },
+        {
+            "path": "pages/feedback/form",
+            "style": {
+                "navigationBarTitleText": "意见反馈"
+            }
+        },
+        {
+            "path": "pages/address/send",
+            "style": {
+                "navigationBarTitleText": "新增寄件地址"
+            }
+        },
+        {
+            "path": "pages/address/receive",
+            "style": {
+                "navigationBarTitleText": "新增收件地址"
+            }
+        },
+        {
+            "path": "pages/send/index",
+            "style": {
+                "navigationBarTitleText": "寄件"
+            }
+        },
+        {
+            "path": "pages/contraband/index",
+            "style": {
+                "navigationBarTitleText": "违禁品"
+            }
+        },
+        {
+            "path": "pages/address/index",
+            "style": {
+                "navigationBarTitleText": "地址簿"
+            }
+        },
+        {
+            "path": "pages/invoice/index",
+            "style": {
+                "navigationBarTitleText": "发票申请"
+            }
+        },
+        {
+            "path": "pages/invoice/record",
+            "style": {
+                "navigationBarTitleText": "开票记录"
+            }
+        },
+        {
+            "path": "pages/invoice/fill",
+            "style": {
+                "navigationBarTitleText": "发票申请"
+            }
+        },
+        {
+            "path": "pages/freight/index",
+            "style": {
+                "navigationBarTitleText": "运费试算",
+				"backgroundColor":"#f3f3f3"
+            }
+        },
+        {
+            "path": "pages/order/finished",
+            "style": {
+                "navigationBarTitleText": "下单成功"
+            }
+        }
+
+
+    ],
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#FF6E00",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tab-1.png",
+                "selectedIconPath": "static/tabbar-1-selected.png"
+            },
+            {
+                "pagePath": "pages/tabbar-2/index",
+                "text": "我的订单",
+                "iconPath": "static/tab-2.png",
+                "selectedIconPath": "static/tabbar-2-selected.png"
+            },
+            {
+                "pagePath": "pages/tabbar-3/index",
+                "text": "去寄件",
+                "iconPath": "static/tab-3.png",
+                "selectedIconPath": "static/tabbar-3-selected.png"
+            },
+            {
+                "pagePath": "pages/tabbar-4/index",
+                "text": "福利",
+                "iconPath": "static/tab-4.png",
+                "selectedIconPath": "static/tabbar-4-selected.png"
+            },
+            {
+                "pagePath": "pages/tabbar-5/index",
+                "text": "个人中心",
+                "iconPath": "static/tab-5.png",
+                "selectedIconPath": "static/tabbar-5-selected.png"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+
+
+    },
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
+        }
+    }
+}
